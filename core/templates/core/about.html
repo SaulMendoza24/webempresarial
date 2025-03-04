@@ -1,0 +1,33 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}
+about
+{% endblock title %}
+
+  
+
+{% block content %}
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/about.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Tradición familiar Aguascalentense</span>
+              <span class="section-heading-lower">Nuestra historia</span>
+            </h2>
+            <p>En el corazón de Aguascalientes, nació La Tentación en Azúcar, una pastelería que surgió de un sueño familiar y una pasión compartida por los sabores auténticos. Todo comenzó en la cocina de la abuela María, donde el aroma a canela, vainilla y chocolate fresco llenaba cada rincón de la casa. Sus recetas, transmitidas de generación en generación, eran más que simples postres: eran historias de amor, dedicación y momentos inolvidables. </p>
+            <p>Con el tiempo, esa tradición se convirtió en nuestro propósito: llevar esos sabores únicos a más personas. En 1946, decidimos abrir las puertas de La tentacion en azucar, un lugar donde cada producto está hecho con ingredientes de la más alta calidad, técnicas artesanales y, sobre todo, mucho cariño. Desde nuestros cupcakes decorados a mano hasta nuestros pasteles de bodas personalizados, cada creación es una obra de arte que busca endulzar tus momentos especiales.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+{% endblock content %}
+  
+
